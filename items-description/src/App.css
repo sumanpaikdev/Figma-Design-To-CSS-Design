@@ -5,4 +5,91 @@ html{
   margin: 0rem;
   padding: 0rem;
   box-sizing: border-box;
+  font-family: monospace;
+}
+.app--container{
+  margin: 20px auto;width: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card--container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 600px;
+  background-color: rgb(233, 255, 240);
+  border-radius: 13px;
+  border: 1px solid rgba(193, 193, 193, 0.348);
+  box-shadow: 0px 0px 15px 0px rgba(42, 42, 42, 0.085);
+}
+.left{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(142, 255, 180);
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+.left > img{
+  height: 200px;
+  width: 200px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  margin: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 387px;
+  font-size: 13px;
+  color: gray;
+
+}
+.left--span{
+  font-size: 10.5px;
+}
+.right--span{
+  margin-right: 9px;
+}
+.second{
+  margin: 15px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  width: 387px;
+  color: rgb(61, 61, 61);
+}
+.heading{
+  font-size: 23px;
+}
+.description{
+  padding-right: 15px;
+  font-size: 13px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: justify;
+
+}
+.third{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  margin: 7px 15px 0px 15px;
+  font-size: 13px;
+  width: 387px;
+  color: rgb(0, 157, 255);
+
+}
+.readMore{
+  margin-right: 9px;
 }
