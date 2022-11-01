@@ -13,7 +13,7 @@ const data = [
         description:"This is the second part of the SMM starter pack series of articles. If you made it this far, you must be willing to learn about promoting business through social media. ",
         timecount:"17 days ago",
         name:"Patricia Kemp",
-        picture: "./images/Laptop."
+        picture: "./images/Laptop.png"
     },
     {
         status:"BUSINESS",
@@ -21,7 +21,7 @@ const data = [
         description:"Here are 11 things I wish I knew when I started my business. I hope they will save you some time and some anguish because (experience is a good teacher here) the sodium from your tears acts as a corrosive melting agent...",
         timecount:"1 month ago",
         name:"Lisa Barnes",
-        picture: "./images/Laptop.png"
+        picture: "./images/Business.png"
     }
 ]
 export default data;
