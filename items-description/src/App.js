@@ -16,7 +16,6 @@ export default function App() {
   }
   return(
     <div className="app--container">
-      {/* <Card pic={firstImg}/> */}
       {dataset}
     </div>
   );
